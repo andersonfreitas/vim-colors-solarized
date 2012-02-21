@@ -757,6 +757,17 @@ hi! link gitcommitUnmergedArrow  gitcommitUnmergedFile
 "exe "hi! gitcommitOverflow"
 "exe "hi! gitcommitBlank"
 " }}}
+" xml highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! xmlNamespace"         .s:fmt_bold .s:fg_blue   .s:bg_none
+exe "hi! xmlAttrib"            .s:fmt_bold .s:fg_blue   .s:bg_none
+exe "hi! xmlAttribPunct"       .s:fmt_bold .s:fg_blue   .s:bg_none
+exe "hi! xmlString"            .s:fmt_none .s:fg_green  .s:bg_none 
+"exe "hi! xmlCdata"             .s:fmt_none .s:fg_green  .s:bg_none 
+exe "hi! xmlCdataEnd"          .s:fmt_none .s:fg_green  .s:bg_none 
+exe "hi! xmlCdataStart"        .s:fmt_none .s:fg_green  .s:bg_none 
+exe "hi! Normal"               .s:fmt_none .s:fg_base1  .s:bg_back
+"}}}
 " html highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! htmlTag"           .s:fmt_none .s:fg_base01 .s:bg_none
